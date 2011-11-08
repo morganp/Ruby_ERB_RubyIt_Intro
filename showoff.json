@@ -1,1 +1,2 @@
-{ "name": "Ruby, ERB & RubyIt Intro", "sections": [ {"section":"one"} ]}
+{ "name": "Ruby, ERB & RubyIt Intro", "sections": [ "ruby_intro", "erb",
+"ruby_it" ]}
