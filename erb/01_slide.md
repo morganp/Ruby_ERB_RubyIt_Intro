@@ -14,3 +14,18 @@ To generate output
 .notes equivalent of puts in scripts
 
     <%= a %>
+
+!SLIDE
+# ERB and Templates #
+Dynamic port lists can be created
+
+    @@@ ruby
+    module scalable (
+    <% (0...CHANNELS).each do |i| -%>
+      rx_<%= i %>,
+    <% end -%>
+      clk,
+      rst_an
+    );
+    
+    endmodule
