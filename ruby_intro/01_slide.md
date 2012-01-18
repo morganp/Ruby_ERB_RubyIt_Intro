@@ -4,8 +4,8 @@
 !SLIDE
 # Ruby #
 
-* Ruby The main language
-* Rails The web development framework
+* Ruby the main language
+* Rails a web development framework
 * IRB Interactive Ruby
 * ERB Embedded Ruby
 
